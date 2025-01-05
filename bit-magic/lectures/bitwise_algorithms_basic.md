@@ -19,7 +19,7 @@ if (num & 1) {
 # Bitwise Operations
 Operators that work at the bit level are called Bitwise Operators. There are six main types, as described below:
 
-## 1. `&` (Bitwise AND)
+### 1. `&` (Bitwise AND)
 Performs an AND operation on each bit of two numbers.
 The result is `1` only if both bits are `1`.
 Example:
@@ -29,7 +29,7 @@ A & B = 1  // Binary: 0001
 ```
 <br>
 
-## 2. `|` (Bitwise OR)
+### 2. `|` (Bitwise OR)
 Performs an OR operation on each bit of two numbers.
 The result is '1' if any bit is '1'.
 Example:
@@ -39,7 +39,7 @@ A | B = 7  // Binary: 0111
 ```
 <br>
 
-## 3. `^` (Bitwise XOR)
+### 3. `^` (Bitwise XOR)
 Performs an XOR operation on each bit of two numbers.
 The result is 1 if the two bits are different.
 Example:
@@ -49,7 +49,7 @@ A ^ B = 6  // Binary: 0110
 ```
 <br>
 
-## 4. `<<` (Left Shift)
+### 4. `<<` (Left Shift)
 Shifts the bits of the first operand to the left by the number of positions specified by the second operand.
 Example:
 Suppose `A = 5` (binary `0101`):
@@ -58,7 +58,7 @@ A << 1 = 10  // Binary: 1010
 ```
 <br>
 
-## 5. `>>` (Right Shift)
+### 5. `>>` (Right Shift)
 Shifts the bits of the first operand to the right by the number of positions specified by the second operand.
 Example
 Suppose `A = 5` (binary `0101`):
@@ -67,33 +67,13 @@ A >> 1 = 2  // Binary: 0010
 ```
 <br>
 
-## 6. `~` (Bitwise NOT)
+### 6. `~` (Bitwise NOT)
 Inverts all the bits of a number.
 Example:
 Suppose `A = 5` (binary `0101`):
 ```cpp
 ~A = -6  // Binary: In two's complement representation
 ```
-<br>
-
-# Important Facts about Bitwise Operators
-
-1. **Shift Operators and Negative Numbers**  
-   - The left shift (`<<`) and right shift (`>>`) operators **cannot** be used with negative numbers.
-
-2. **Bitwise vs Logical Operators**  
-   - **Do not** use bitwise operators (`&`, `|`, `^`) in place of logical operators (`&&`, `||`) as they have different behavior.
-
-3. **Shift Operators as Multiplication and Division**  
-   - The left-shift operator (`<<`) is equivalent to **multiplication by 2**.  
-   - The right-shift operator (`>>`) is equivalent to **division by 2**.
-
-4. **Checking Odd or Even with `&` Operator**  
-   - The `&` operator can be used to quickly determine if a number is odd or even.  
-     - **Expression:** `(x & 1)`  
-     - **Result:**  
-       - Non-zero → `x` is **odd**  
-       - Zero → `x` is **even**
 <br>
 
 # Time and Space Complexity
