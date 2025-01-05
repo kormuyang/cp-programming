@@ -75,3 +75,27 @@ Suppose `A = 5` (binary `0101`):
 ~A = -6  // Binary: In two's complement representation
 ```
 <br>
+
+# Important Facts about Bitwise Operators
+
+1. **Shift Operators and Negative Numbers**  
+   - The left shift (`<<`) and right shift (`>>`) operators **cannot** be used with negative numbers.
+
+2. **Bitwise vs Logical Operators**  
+   - **Do not** use bitwise operators (`&`, `|`, `^`) in place of logical operators (`&&`, `||`) as they have different behavior.
+
+3. **Shift Operators as Multiplication and Division**  
+   - The left-shift operator (`<<`) is equivalent to **multiplication by 2**.  
+   - The right-shift operator (`>>`) is equivalent to **division by 2**.
+
+4. **Checking Odd or Even with `&` Operator**  
+   - The `&` operator can be used to quickly determine if a number is odd or even.  
+     - **Expression:** `(x & 1)`  
+     - **Result:**  
+       - Non-zero → `x` is **odd**  
+       - Zero → `x` is **even**
+<br>
+
+# Time and Space Complexity
+   - Time Complexity: **O(1)**  
+   - Auxiliary Space: **O(1)**
