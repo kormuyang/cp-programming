@@ -1,0 +1,6 @@
+int a = 14;
+
+int contains 2^32 probabilities -> 32 bits -> 4 bytes (1 byte = 8 bits)
+
+14 = 0b000...01110 (2-base representation)
+
