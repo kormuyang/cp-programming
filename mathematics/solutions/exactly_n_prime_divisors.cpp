@@ -15,20 +15,19 @@ int main()
     int ans = 0;
     for (int i = 2; i <= m; i++)
     {
+        if (cnt[i] == 0)
+        {
+            for (int j = i; j <= m; j += i)
+            {
+                cnt[j]++;
+            }
+        }
         if (cnt[i] == n)
         {
             ans++;
         }
-        if (cnt[i])
-        {
-            continue;
-        }
-        for (int j = 2 * i; j <= m; j += i)
-        {
-            cnt[j]++;
-        }
     }
-    
+
     cout << ans << '\n';
     return 0;
 }
