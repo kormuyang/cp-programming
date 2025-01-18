@@ -2,31 +2,28 @@
 
 using namespace std;
 
-const long long MOD=1000000007;
-
 int main()
 {
-    int a, b;
-    cin >> a >> b;
-    int c=1;
-    int i=0;
-    while(c < b)
+    int a;
+    cin >> a;
+    int cnt = 0;
+    for(int i = 2; i * i <= a; i++)
     {
-        if((c * a) % b == 1)
+        bool prime = true;
+        // check i is prime or not
+        for (int j = i; j * j <= i; j++)
         {
-            cout << c;
-            i++;
-            c=-1;
-            break;
+            if (i % j == 0)
+            {
+                prime = false;
+                break;
+            }
         }
-        else
+        if(prime)
         {
-            c++;
+            cnt += 1;
         }
     }
-    if(i==0)
-    {
-        cout << "-1";
-    }
+    cout<<cnt;
     return 0;
 }
