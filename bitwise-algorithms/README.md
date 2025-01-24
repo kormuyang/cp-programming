@@ -1,6 +1,7 @@
-# Big Magic
+# Bitwise Algorithms
 ## Order of Problems
 - binary_representation
+- decimal_representation
 - power_of_two
 - count_set_bits
 - k-th_bit_check
