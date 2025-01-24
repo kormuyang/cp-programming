@@ -5,10 +5,10 @@ using namespace std;
 int main()
 {
     int n; cin >> n;
-    string ans = "";
     while (n > 0)
     {
-        continue;
+        cout << n % 2;
+        n /= 2;
     }
     return 0;
 }
