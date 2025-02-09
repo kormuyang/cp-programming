@@ -14,7 +14,7 @@ int main()
 
 
     // Representation of Array
-    // An array contiaining elements of type int
+    // An array contiaining elements of type int.
 
     return 0;
 }
