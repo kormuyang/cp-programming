@@ -4,3 +4,4 @@ Hi everyone! This repo is for those interested in competitive programming.
 - Basic Programming
 - Mathematics
 - Bitwise Algorithms
+- Arrays
