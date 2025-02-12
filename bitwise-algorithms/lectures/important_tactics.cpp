@@ -85,8 +85,8 @@ int main()
     //                 num_1 = 0b01101
     //                 num_2 = 0b01111
     // num_1 = num_1 ^ num_2 = 0b00010
-    // num_2 = num_2 ^ num_1 = 0b01101 = num_1 ตอนแรก
-    // num_1 = num_1 ^ num_2 = 0b01111 = num_2 ตอนแรก
+    // num_2 = num_2 ^ num_1 = 0b01101 = num_1 (initial)
+    // num_1 = num_1 ^ num_2 = 0b01111 = num_2 (initial)
 
     // num_1 = (num_1 ^ num_2);
     num_1 ^= num_2;
