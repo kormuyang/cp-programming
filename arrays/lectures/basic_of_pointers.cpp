@@ -17,5 +17,20 @@ int main()
         cout << "Not the Same!\n";
     }
 
+
+    // What will happen if we code "cout << array_one" ?
+    cout << array_one << '\n';
+    cout << array_two << '\n';
+
+
+    // Examples of pointer usages
+    int number_one = 14;
+    int *number_one_address = &number_one;
+    cout << number_one << " is at " << number_one_address << '\n';
+
+    string name = "Ohm";
+    string *name_address = &name;
+    cout << name << " is at " << name_address << '\n';
+
     return 0;
 }

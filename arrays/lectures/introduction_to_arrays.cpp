@@ -11,10 +11,14 @@ int main()
 
     // Basic Terminologies of Array
     // Terminology = a group of specialized words in a particular field.
+    // - Array Index -> Arrays index starts from 0.
+    // - Array Element -> Elements are items stored in an array.
+    // - Array Length
 
 
     // Representation of Array
     // An array contiaining elements of type int.
+    int exam_scores[3] = {10, 14, 19};
 
     return 0;
 }
