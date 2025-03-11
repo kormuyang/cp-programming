@@ -8,3 +8,8 @@
 
 ## Order of Problems
 - Range Sum Queries
+- Equilibrium Index
+- Largest Sum Subarray
+- Merge Two Sorted Arrays
+- Second Largest Element
+- Remove Duplicates
