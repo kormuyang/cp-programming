@@ -2,8 +2,6 @@
 
 using namespace std;
 
-// Algotihms: prefix sum, query sum
-
 int main()
 {
     int n, q; cin >> n >> q;

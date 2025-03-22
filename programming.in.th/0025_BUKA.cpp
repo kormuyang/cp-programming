@@ -2,8 +2,6 @@
 
 using namespace std;
 
-// Problem category: Big Number
-
 int main()
 {
     string a, q, b; cin >> a >> q >> b;
