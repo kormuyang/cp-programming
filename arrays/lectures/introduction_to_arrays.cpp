@@ -11,7 +11,7 @@ int main()
 
     // Basic Terminologies of Array
     // Terminology = a group of specialized words in a particular field.
-    // - Array Index -> Arrays index starts from 0.
+    // - Array Index   -> Arrays index starts with 0.
     // - Array Element -> Elements are items stored in an array.
     // - Array Length
 

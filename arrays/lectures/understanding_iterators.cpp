@@ -1,15 +1,6 @@
 #include <iostream>
-#include <vector>
 
 using namespace std;
-
-// data structure
-// Hospital 
-// - parameter -> Name, Capacity, Location, Staff
-// - method -> .heal(), .sleep()
-
-// vector -> data structure
-// vector -> .begin(), .end()
 
 int main()
 {
