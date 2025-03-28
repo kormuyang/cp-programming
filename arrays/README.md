@@ -12,4 +12,5 @@
 - Largest Sum Subarray
 - Merge Two Sorted Arrays
 - Second Largest Element
+- Is an Array Sorted
 - Remove Duplicates
