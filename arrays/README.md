@@ -14,3 +14,5 @@
 - Second Largest Element
 - Is an Array Sorted
 - Remove Duplicates
+- Maximum Difference with Order
+- Stock Buy and Sell
