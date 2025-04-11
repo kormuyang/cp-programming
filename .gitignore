@@ -48,3 +48,4 @@
 # Others
 *.pages
 test.*
+.DS_Store

@@ -2,6 +2,10 @@
 
 using namespace std;
 
+// 7
+// -7 1 5 2 -4 3 0
+// output: 3
+
 int main()
 {
     int n; cin >> n;
