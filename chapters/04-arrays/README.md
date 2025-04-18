@@ -1,19 +1,20 @@
 # Arrays
 ## Order of Lectures
-- Introduction to Arrays
-- Operations on Arrays
-- Basic of Pointers
-- Applications of Vectors
-- Understanding Iterators
+1. Introduction to Arrays
+2. Operations on Arrays
+3. Basic of Pointers
+4. Applications of Vectors
+5. Understanding Iterators
+6. OOP
 
 ## Order of Problems
-- Range Sum Queries
-- Equilibrium Index
-- Largest Sum Subarray
-- Merge Two Sorted Arrays
-- Second Largest Element
-- Is an Array Sorted
-- Remove Duplicates
-- Maximum Difference with Order
-- Stock Buy and Sell
-- Trapping Rain Water
+1. Range Sum Queries
+2. Equilibrium Index
+3. Largest Sum Subarray
+4. Merge Two Sorted Arrays
+5. Second Largest Element
+6. Is an Array Sorted
+7. Remove Duplicates
+8. Maximum Difference with Order
+9. Stock Buy and Sell
+10. Trapping Rain Water
