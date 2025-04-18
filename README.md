@@ -5,3 +5,4 @@ Hi everyone! This repo is for those interested in competitive programming.
 - Mathematics
 - Bitwise Algorithms
 - Arrays
+- Searching
