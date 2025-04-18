@@ -9,5 +9,5 @@ Hi everyone! This repo is for those interested in competitive programming.
 5. Searching
 
 ## Graders
-- programming.in.th
-- TOI-Zero
+1. programming.in.th
+2. TOI-Zero
