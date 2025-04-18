@@ -1,4 +1,5 @@
 # Basic Programming
+
 ## Order of Problems
-- mountain_and_valley (Medium)
-- ordered_christmas_tree (Hard)
+1. mountain_and_valley (Medium)
+2. ordered_christmas_tree (Hard)
