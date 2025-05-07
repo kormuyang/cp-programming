@@ -3,7 +3,7 @@
 using namespace std;
 
 // Implementation of binary search with while loop
-// Time Complexity: O(log2 n)
+// Time Complexity: O(log n)
 // Space Complexity: O(1)
 
 int main()
@@ -12,7 +12,7 @@ int main()
     int n = arr.size();
     int target = 3;
 
-    int left = 1, right = n - 1;
+    int left = 0, right = n - 1;
     while (left <= right) {
         int mid = (left + right) / 2;
         // cout << "Left: " << left << ", Right: " << right << ", Mid: " << mid << endl;

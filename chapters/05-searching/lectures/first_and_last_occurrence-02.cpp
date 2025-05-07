@@ -22,8 +22,7 @@ int main() {
     if (arr[first_index] == target) {
         int last_index = upper_bound(arr.begin(), arr.end(), target) - arr.begin() - 1;
         cout << first_index << " " << last_index << "\n";
-    }
-    else {
+    } else {
         cout << "-1 -1\n";
     }
     return 0;

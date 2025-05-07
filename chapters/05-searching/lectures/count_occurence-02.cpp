@@ -20,8 +20,7 @@ int main() {
     if (arr[first_index] == target) {
         int last_index = upper_bound(arr.begin(), arr.end(), target) - arr.begin() - 1;
         cout << last_index - first_index + 1 << '\n';
-    }
-    else {
+    } else {
         cout << "0\n";
     }
     return 0;
