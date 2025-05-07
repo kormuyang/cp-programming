@@ -15,8 +15,7 @@ using namespace std;
 // Output:
 // 4 6
 
-int first(vector<int> &arr, int target)
-{
+int first(vector<int> &arr, int target) {
     int left = 0, right = arr.size() - 1;
     int ans = -1;
     while (left <= right) {
@@ -33,8 +32,7 @@ int first(vector<int> &arr, int target)
     return ans;
 }
 
-int last(vector<int> &arr, int target)
-{
+int last(vector<int> &arr, int target) {
     int left = 0, right = arr.size() - 1;
     int ans = -1;
     while (left <= right) {
@@ -51,8 +49,7 @@ int last(vector<int> &arr, int target)
     return ans;
 }
 
-int main()
-{
+int main() {
     vector<int> arr = {1, 2, 3, 4, 5, 5, 5, 6, 7};
     int target = 5;
     cout << first(arr, target) << " " << last(arr, target) << "\n";
