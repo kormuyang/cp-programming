@@ -4,6 +4,7 @@
 - ternary_search.cpp
 - first_and_last_index.cpp
 - count_occurence.cpp
+- binary_seach_stl.cpp
 - sqaure_root.cpp
 - two_pointers_approach.cpp
 - triplet_in_a_sorted_array.cpp
