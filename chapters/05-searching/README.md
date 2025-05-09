@@ -9,7 +9,7 @@
 - two_pointers_approach.cpp
 - triplet_in_a_sorted_array.cpp
 - median_of_two_sorted_arrays.cpp
-- repeating_elements.cpp
+- repeating_and_missing_nubmers.cpp
 - allocate_minimum_pages.cpp
 
 ## Order of Problems
