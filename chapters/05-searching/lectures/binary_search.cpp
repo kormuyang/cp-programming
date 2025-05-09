@@ -2,7 +2,7 @@
 
 using namespace std;
 
-// Implementation of binary search with while loop
+// Description: implementation of binary search with while loop
 // Time Complexity: O(log n)
 // Space Complexity: O(1)
 
