@@ -3,6 +3,8 @@
 using namespace std;
 
 // Problem: Calculate the square root of a number using binary search
+// Time Complexity: O(log n)
+// Space Complexity: O(1)
 
 // Input:
 // 16

@@ -3,8 +3,8 @@
 using namespace std;
 
 // Problem: Count the number of occurrences of a target in a sorted array
-// arr = [1, 2, 3, 4, 5, 5, 5, 6, 7]
-// target = 5
+// Time Complexity: O(log n)
+// Space Complexity: O(1)
 
 // Input:
 // 9 5

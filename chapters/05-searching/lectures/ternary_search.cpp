@@ -3,7 +3,7 @@
 using namespace std;
 
 // Implementation of ternary search with while loop
-// Time Complexity: O(log3 n)
+// Time Complexity: O(log n)
 // Space Complexity: O(1)
 
 int main()

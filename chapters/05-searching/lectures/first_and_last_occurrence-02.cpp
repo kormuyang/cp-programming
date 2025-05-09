@@ -3,10 +3,8 @@
 using namespace std;
 
 // Problem: Find the first and last occurrence of a target in a sorted array
-// arr = [1, 2, 3, 4, 5, 5, 5, 6, 7]
-// target = 5
-// first occurrence = 4
-// last occurrence = 6
+// Time Complexity: O(log n)
+// Space Complexity: O(1)
 
 // Input:
 // 9 5
