@@ -50,17 +50,6 @@ int last(vector<int> &arr, int target) {
 int main() {
     vector<int> arr = {1, 2, 3, 4, 5, 5, 5, 6, 7};
     int target = 5;
-
-    // time complexity: O(n)
-    // space complexity: O(1)
-    // int cnt = 0;
-    // for (int i = 0; i < arr.size(); i++) {
-    //     if (arr[i] == target) cnt++;
-    // }
-    // cout << cnt << '\n';
-
-    // time complexity: O(log n)
-    // space complexity: O(1)
     cout << last(arr, target) - first(arr, target) + 1 << '\n';
     return 0;
 }
