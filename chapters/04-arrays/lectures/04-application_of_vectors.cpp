@@ -22,6 +22,13 @@ int main()
     {
         cout << i << ' ';
     }
-
+    for (int &i : vector_one)
+    {
+        cin >> i;
+    }
+    for (int i = 0; i < n; i++)
+    {
+        cin >> vector_one[i];
+    }
     return 0;
 }
