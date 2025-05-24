@@ -9,7 +9,8 @@ using namespace std;
 int main()
 {
     int n; cin >> n;
-    vector<int> a(n); for (int i = 0; i < n; i++) cin >> a[i];
+    vector<int> a(n);
+    for (int i = 0; i < n; i++) cin >> a[i];
 
     int mx1 = INT_MIN, mx2 = INT_MIN;
     for (int i = 0; i < n; i++)
@@ -24,7 +25,14 @@ int main()
             mx2 = a[i];
         }
     }
-
-    cout << mx2 << '\n';
+    
+    if (mx2 == INT_MIN)
+    {
+        cout << "-1\n";
+    }
+    else
+    {
+        cout << mx2 << '\n';
+    }
     return 0;
 }
