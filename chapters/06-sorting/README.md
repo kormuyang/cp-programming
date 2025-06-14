@@ -1,9 +1,9 @@
 # Searching
 ## Lecture Order
-- Sort in STL (sort_stl.cpp)
-- Bubble Sort (bubble_sort.cpp)
-- Selection Sort (selection_sort.cpp)
-- Insertion Sort (insertion_sort.cpp)
+- Sort in C++ STL
+- Bubble Sort
+- Selection Sort
+- Insertion Sort
 - Merge Sort Introduction
 - Merge Sort Code
 - Merge Sort Analysis
