@@ -10,9 +10,9 @@ int main()
     // Dynamic Array -> can adjust its length
 
     int n = 50;
-    
+
     int array_one[n];
-    for (int i = 0; i < n; i++) 
+    for (int i = 0; i < n; i++)
     {
         cout << array_one[i] << ' ';
     }
@@ -22,6 +22,7 @@ int main()
     {
         cout << i << ' ';
     }
+
     // for (int &i : vector_one)
     // {
     //     cin >> i;
@@ -30,5 +31,6 @@ int main()
     // {
     //     cin >> vector_one[i];
     // }
+
     return 0;
 }
