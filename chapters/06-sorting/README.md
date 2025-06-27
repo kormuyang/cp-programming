@@ -1,5 +1,7 @@
 # Searching
+
 ## Lecture Order
+
 - Sort in C++ STL
 - Bubble Sort
 - Selection Sort
@@ -10,6 +12,7 @@
 - ...
 
 ## Problem Order
+
 - Merge Three Sorted Arrays
 - Find Triplets with Zero Sum
 - Intersection of Two Sorted Arrays

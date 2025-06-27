@@ -22,6 +22,8 @@ int main()
     {
         cout << i << ' ';
     }
+
+    // input
     // for (int &i : vector_one)
     // {
     //     cin >> i;
@@ -30,5 +32,6 @@ int main()
     // {
     //     cin >> vector_one[i];
     // }
+
     return 0;
 }
