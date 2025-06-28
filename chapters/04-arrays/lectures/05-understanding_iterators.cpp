@@ -11,6 +11,7 @@ int main()
     student_names.push_back("Pop");
 
     vector<string>::iterator itr = student_names.begin();
+
     cout << *itr << '\n';
 
     // how can we travel through vector's element via iterator
@@ -19,6 +20,6 @@ int main()
         cout << *itr << ' ';
     }
     cout << '\n';
-    
+
     return 0;
 }

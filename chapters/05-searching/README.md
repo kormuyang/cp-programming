@@ -1,5 +1,7 @@
 # Searching
+
 ## Order of Lectures
+
 - Binary Search
 - Ternary Search
 - First and Last Index
@@ -12,6 +14,7 @@
 - Allocate Minimum Pages
 
 ## Order of Problems
+
 - a.cpp
 - b.cpp
 - c.cpp

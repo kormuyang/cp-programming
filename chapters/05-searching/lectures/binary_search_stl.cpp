@@ -15,7 +15,7 @@ int main()
     // 1. binary_search -> return true if target is present in the array
     cout << binary_search(arr.begin(), arr.end(), target) << '\n';
 
-    // 2. lower_bound -> return index of first element >= target
+    // 2. lower_bound -> return iterator of the first element that >= target
     cout << lower_bound(arr.begin(), arr.end(), target) - arr.begin() << '\n';
     if (lower_bound(arr.begin(), arr.end(), target) == arr.end())
     {
@@ -30,7 +30,7 @@ int main()
         cout << "Not found\n";
     }
 
-    // 3. upper_bound -> return index of first element > target
+    // 3. upper_bound -> return iterator of the first element that > target
     cout << upper_bound(arr.begin(), arr.end(), target) - arr.begin() << '\n';
 
     return 0;
