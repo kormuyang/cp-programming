@@ -19,32 +19,43 @@ Problem:
 // Output:
 // 113
 
-int main() {
-    int n, k; cin >> n >> k;
+int main()
+{
+    int n, k;
+    cin >> n >> k;
     vector<int> arr(n);
     int left = -1, right = 0;
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i < n; i++)
+    {
         cin >> arr[i];
         left = max(left, arr[i]);
         right += arr[i];
     }
     int ans = right;
-    while (left <= right) {
+    while (left <= right)
+    {
         int mid = (left + right) / 2;
         int cnt = 1, sum = 0;
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++)
+        {
             sum += arr[i];
-            if (sum > mid) {
+            if (sum > mid)
+            {
                 cnt++;
                 sum = arr[i];
             }
         }
-        if (cnt < k) {
+        if (cnt < k)
+        {
             right = mid - 1;
-        } else if (cnt == k) {
+        }
+        else if (cnt == k)
+        {
             right = mid - 1;
             ans = min(ans, mid);
-        } else {
+        }
+        else
+        {
             left = mid + 1;
         }
     }

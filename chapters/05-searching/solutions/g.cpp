@@ -2,19 +2,26 @@
 
 using namespace std;
 
-int main() {
-    int n; cin >> n;
+int main()
+{
+    int n;
+    cin >> n;
     int l = 1, r = n, ans = n;
-    while (l <= r) {
+    while (l <= r)
+    {
         int m = (l + r) / 2;
         int sum = 0;
-        for (int i = 1; i <= m; i++) {
+        for (int i = 1; i <= m; i++)
+        {
             sum += (m / i);
         }
-        if (sum >= n) {
+        if (sum >= n)
+        {
             r = m - 1;
             ans = min(ans, m);
-        } else {
+        }
+        else
+        {
             l = m + 1;
         }
     }

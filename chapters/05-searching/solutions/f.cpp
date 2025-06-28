@@ -2,24 +2,33 @@
 
 using namespace std;
 
-int main() {
-    int n, k; cin >> n >> k;
+int main()
+{
+    int n, k;
+    cin >> n >> k;
     vector<int> a(n);
     int l = 0, r = 0;
-    for (int &i : a) {
-        cin >> i; r = max(r, i);
+    for (int &i : a)
+    {
+        cin >> i;
+        r = max(r, i);
     }
     int ans = 0;
-    while (l <= r) {
+    while (l <= r)
+    {
         int m = (l + r) / 2;
         int cnt = 0;
-        for (int i : a) {
+        for (int i : a)
+        {
             cnt += (i / m);
         }
-        if (cnt >= k) {
+        if (cnt >= k)
+        {
             ans = max(ans, m);
             l = m + 1;
-        } else {
+        }
+        else
+        {
             r = m - 1;
         }
     }

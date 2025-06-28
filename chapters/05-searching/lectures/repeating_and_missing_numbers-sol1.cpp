@@ -17,15 +17,21 @@ Problem:
 // Output:
 // 1 6
 
-int main() {
-    int n; cin >> n;
+int main()
+{
+    int n;
+    cin >> n;
     vector<int> arr(n);
-    for (int i = 0; i < n; i++) cin >> arr[i];
+    for (int i = 0; i < n; i++)
+        cin >> arr[i];
 
     // Find the repeating number
-    for (int i = 0; i < n - 1; i++) {
-        for (int j = i + 1; j < n; j++) {
-            if (arr[i] == arr[j]) {
+    for (int i = 0; i < n - 1; i++)
+    {
+        for (int j = i + 1; j < n; j++)
+        {
+            if (arr[i] == arr[j])
+            {
                 cout << arr[i] << ' ';
                 break;
             }
@@ -33,15 +39,19 @@ int main() {
     }
 
     // Find the missing number
-    for (int i = 1; i <= n; i++) {
+    for (int i = 1; i <= n; i++)
+    {
         bool found = false;
-        for (int j = 0; j < n; j++) {
-            if (arr[j] == i) {
+        for (int j = 0; j < n; j++)
+        {
+            if (arr[j] == i)
+            {
                 found = true;
                 break;
             }
         }
-        if (!found) {
+        if (!found)
+        {
             cout << i << '\n';
             break;
         }

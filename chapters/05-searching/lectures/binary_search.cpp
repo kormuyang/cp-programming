@@ -13,15 +13,21 @@ int main()
     int target = 3;
 
     int left = 0, right = n - 1;
-    while (left <= right) {
+    while (left <= right)
+    {
         int mid = (left + right) / 2;
         // cout << "Left: " << left << ", Right: " << right << ", Mid: " << mid << endl;
-        if (arr[mid] == target) {
+        if (arr[mid] == target)
+        {
             cout << "Element found at index: " << mid << endl;
             return 0;
-        } else if (arr[mid] < target) {
+        }
+        else if (arr[mid] < target)
+        {
             left = mid + 1;
-        } else {
+        }
+        else
+        {
             right = mid - 1;
         }
     }

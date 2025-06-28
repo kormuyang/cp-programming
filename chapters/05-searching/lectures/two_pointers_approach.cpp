@@ -14,21 +14,29 @@ using namespace std;
 // Output:
 // 3 20
 
-int main() {
+int main()
+{
     int n, target;
     cin >> n >> target;
     vector<int> arr(n);
-    for (int i = 0; i < n; i++) cin >> arr[i];
+    for (int i = 0; i < n; i++)
+        cin >> arr[i];
 
     int left = 0, right = n - 1;
-    while (left < right) {
+    while (left < right)
+    {
         int sum = arr[left] + arr[right];
-        if (sum == target) {
+        if (sum == target)
+        {
             cout << arr[left] << ' ' << arr[right] << '\n';
             return 0;
-        } else if (sum < target) {
+        }
+        else if (sum < target)
+        {
             left++;
-        } else {
+        }
+        else
+        {
             right--;
         }
     }

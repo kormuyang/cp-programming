@@ -7,7 +7,8 @@ using namespace std;
 // 2. lower_bound -> return index of first element >= target
 // 3. upper_bound -> return index of first element > target
 
-int main() {
+int main()
+{
     vector<int> arr = {1, 2, 3, 4, 5, 5, 5, 7, 8};
     int target = 5;
 
@@ -16,11 +17,16 @@ int main() {
 
     // 2. lower_bound -> return index of first element >= target
     cout << lower_bound(arr.begin(), arr.end(), target) - arr.begin() << '\n';
-    if (lower_bound(arr.begin(), arr.end(), target) == arr.end()) {
+    if (lower_bound(arr.begin(), arr.end(), target) == arr.end())
+    {
         cout << "Not found\n";
-    } else if (*lower_bound(arr.begin(), arr.end(), target) == target) {
+    }
+    else if (*lower_bound(arr.begin(), arr.end(), target) == target)
+    {
         cout << "Found\n";
-    } else {
+    }
+    else
+    {
         cout << "Not found\n";
     }
 

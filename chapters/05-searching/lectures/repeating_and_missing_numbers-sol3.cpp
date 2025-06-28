@@ -17,24 +17,33 @@ Problem:
 // Output:
 // 1 7
 
-int main() {
-    int n; cin >> n;
+int main()
+{
+    int n;
+    cin >> n;
     vector<int> arr(n + 1, 0);
-    for (int i = 1; i <= n; i++) cin >> arr[i];
+    for (int i = 1; i <= n; i++)
+        cin >> arr[i];
 
     // Find the repeating number
-    for (int i = 1; i <= n; i++) {
-        if (arr[abs(arr[i]) - 1] < 0) {
+    for (int i = 1; i <= n; i++)
+    {
+        if (arr[abs(arr[i]) - 1] < 0)
+        {
             cout << abs(arr[i]) << ' ';
             break;
-        } else {
+        }
+        else
+        {
             arr[abs(arr[i])] *= -1;
         }
     }
 
     // Find the missing number
-    for (int i = 1; i <= n; i++) {
-        if (arr[i] > 0) {
+    for (int i = 1; i <= n; i++)
+    {
+        if (arr[i] > 0)
+        {
             cout << i << '\n';
             break;
         }
